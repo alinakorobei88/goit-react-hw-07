@@ -30,7 +30,7 @@ const ContactForm = () => {
         <label className={css.label}>
           Name
           <input
-            className={css.input}
+            className={css.input1}
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -39,7 +39,7 @@ const ContactForm = () => {
         <label className={css.label}>
           Number
           <input
-            className={css.input}
+            className={css.input2}
             type="text"
             value={number}
             onChange={(e) => setNumber(e.target.value)}
